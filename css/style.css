@@ -1,0 +1,29 @@
+body {
+    position: relative; 
+}
+#Reviews 
+{
+padding-top:50px;
+height:500px;
+background: rgb(163, 84, 84);
+z-index=1;
+opacity:0.8;
+color: #fff;
+}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: #193040;}
+.container {
+    padding: 80px 120px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin-top: 50px;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+  }
+.thumbnail:hover {
+  -ms-transform: scale(0.9); 
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); 
+}

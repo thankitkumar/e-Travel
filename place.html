@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<head>
+    <title>e-Travel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../jquery.validate.js"></script>
+    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <style>
+        h5 {
+            position: relative;
+            display: block;
+            font-size: 2.83em;
+            margin-block-start: 3.67em;
+            margin-block-end: 1.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .small {
+            font-size: 10px;
+            font-weight: 400;
+        }
+
+        table th {
+            font-size: 1.9rem;
+            font-weight: 400;
+            text-align: inherit;
+        }
+
+        pt-1,
+        .py-1 {
+            padding-top: .25rem !important;
+        }
+
+        p {
+            font-size: medium;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+
+        }
+
+        table td {
+            font-size: 1.9rem;
+            font-weight: 200;
+        }
+
+        .btn.btn-md {
+            padding: .7rem 1.6rem;
+            font-size: 1.7rem;
+        }
+    </style>
+
+    <nav class="navbar navbar-default navbar-fixed-top" style="padding:25px" ;>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="margin-top:-20%;">
+                    <h1>e-<span style="color:green;">Travel</span></h1>
+                </a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav" style="font-size:20px" ;>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#Steps">Steps</a></li>
+                        <li><a href="#Reviews">Reviews</a></li>
+                        <li><a href="#section4">About Us</a></li>
+                        <li>
+                            <div class="dropdown" style="padding-top:10px" ;>
+                                <span class="glyphicon glyphicon-map-marker"></span></button>
+                                <button class="btn btn-link" type="button" data-toggle="dropdown"
+                                    style="font-size:20px">Choose your location
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="Muzaffarpur.html">Muzaffarpur</a></li>
+                                    <li><a href="Patna.html">Patna</a></li>
+                                    <li><a href="Bhagalpur.html">Bhagalpur</a></li>
+                                    <li><a href="bhopal.html">Bhopal</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+
+
+
+    <!--Section: Block Content-->
+    <section class="mb-5">
+
+        <div class="row">
+            <div class="col-md-6 mb-4 mb-md-0">
+
+                <div id="mdb-lightbox-ui"></div>
+
+                <div class="mdb-lightbox">
+
+                    <div class="row product-gallery mx-1">
+
+                        <div class="col-12 mb-0">
+                            <figure class="view overlay rounded z-depth-1 main-img">
+                                <a href="img/m1.jpg" data-size="710x823">
+                                    <img src="img/m1.jpg" class="img-fluid z-depth-1" height="710" width="750">
+                                </a>
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-6">
+
+                <h5>Shiv Temple</h5>
+                <p class="mb-2 text-muted text-uppercase small">Temple</p>
+
+                <p><span class="mr-1"><strong>$12.99</strong></span></p>
+                <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
+                    error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
+                    officia quis dolore quos sapiente tempore alias.</p>
+
+                <hr>
+                <div class="table-responsive mb-2">
+                    <table class="table table-sm table-borderless">
+                        <tbody>
+                            <tr>
+                                <td class="pl-0 pb-0 w-25">Person</td>
+                                <td class="pb-0">Select Vahical</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-0">
+                                    <div class="def-number-input number-input safari_only mb-0">
+
+                                        <input class="quantity" min="0" name="quantity" value="1" type="number">
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="mt-1">
+                                        <div class="form-check form-check-inline pl-0">
+                                            <input type="radio" class="form-check-input" id="small"
+                                                name="materialExampleRadios" checked>
+                                            <label class="form-check-label small text-uppercase card-link-secondary"
+                                                for="small">Bike</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pl-0">
+                                            <input type="radio" class="form-check-input" id="medium"
+                                                name="materialExampleRadios">
+                                            <label class="form-check-label small text-uppercase card-link-secondary"
+                                                for="medium">auto</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pl-0">
+                                            <input type="radio" class="form-check-input" id="large"
+                                                name="materialExampleRadios">
+                                            <label class="form-check-label small text-uppercase card-link-secondary"
+                                                for="large">Car</label>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <button type="button" class="btn btn-primary btn-md mr-1 mb-2">Order now</button>
+
+            </div>
+        </div>
+
+    </section>
+    <hr>
+		<hr>
+		<div id="section4" class="container-fluid">
+			<h1>e-<span style="color:green;">Travel</span></h1>
+			<div id="contact" class="container">
+				<div class="row">
+					<hr>
+					<div class="col-md-4">
+						<p>Any questions? Feel free to contact us!</p>
+						<p><span class="glyphicon glyphicon-map-marker"></span>Muzaffarpur, India</p>
+						<p><span class="glyphicon glyphicon-phone"></span>Phone: +91 8340545720</p>
+						<p><span class="glyphicon glyphicon-envelope"></span>Email: ankitkumar@gmail.com</p>
+					</div>
+					<div class="col-md-4">
+						<p>About e-Travel</p>
+						<p>Become a Delivery Partner</p>
+						<p>Become a Restaurant Partner</p>
+					</div>
+					<div class="col-md-4">
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;Help</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;FAQs</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;Blog</p>
+					</div>
+				</div>
+				<hr>
+			
+			</div>
+			<hr>
+			<footer class="text-center">
+				<a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+				</a><br><br>
+		</div>
+    <!--Section: Block Content-->
+    <script>
+        $(document).ready(function () {
+            // MDB Lightbox Init
+            $(function () {
+                $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+            });
+        });
+    </script>
+</body>
+
+</html>
